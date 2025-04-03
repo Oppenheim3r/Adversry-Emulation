@@ -1,11 +1,3 @@
-# Adversary Emulation Plan
-
-## Goal
-Training for real-world threats from APT groups targeting telecommunications
-
-## Researching Adversary TTPs
-**APT41**  
-Planning activities and selecting TTPs aligned with telecommunications environments
 
 ## APT41 Emulation Plan
 
