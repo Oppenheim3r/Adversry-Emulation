@@ -203,12 +203,5 @@ sc stop WinDefend
 
 ---
 
-## Additional 
 
-- Backdoors: SUNBURST, RAINDROP, TEARDROP, SEA/CozyDuke, Cobalt Strike  
-- Tools: Mimikatz, SDelete, Rubeus, AdFind  
-- Scripts: PowerShell, VBScript, Python  
-- Infrastructure:  
-  - C2 via Twitter, Dropbox, TOR  
-  
 
